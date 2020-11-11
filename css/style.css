@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-header > div.navbar-container{
+div.navbar-container, div.sezione-slogan {
   width: 1200px;
   margin: 0 auto;
 }
@@ -28,14 +28,13 @@ button{
   border-radius: 5px;
 }
 
+
 /* end common settings, fonts, utility classes */
 
 /* style */
 header{
   width: 100%;
   background-color: rgb(25, 45, 82);
-
-  height: 400px;
 }
 
 .navbox-container{
@@ -74,4 +73,25 @@ li.logo > a >div>img{
 .button-green{
   border:none;
   background-color: rgb(139, 184, 56);
+}
+
+
+.slogan-container{
+  width: 100%;
+  color:#fff;
+  font-size: 40px;
+  padding-top: 90px;
+  padding-left: 35px;
+}
+
+.sezione-slogan{
+  position: relative;
+  height: 400px;
+}
+.sezione-slogan>img{
+  width: 900px;
+  height: 350px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }

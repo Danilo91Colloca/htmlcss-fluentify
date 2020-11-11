@@ -5,6 +5,9 @@
   margin:0;
   padding:0;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 .page-container{
   width: 100%;
@@ -34,7 +37,7 @@ button:hover, li:hover{
 }
 
 h1, h2{
-  font-weight: lighter;
+  font-weight: 400;
 }
 
 .clearfix{

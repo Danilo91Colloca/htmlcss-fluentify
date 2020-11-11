@@ -156,12 +156,16 @@ div.subtitle-container{
 }
 
 .box-row1{
-  padding: 15px 40px;
+  padding: 15px 15px;
   width:300px;
 }
 div.img-box-row1> img.img-row1{
   width: 150px;
   height: 150px;
+}
+
+div.h2-row1-container>h2{
+  padding: 0px 20px;
 }
 
 .horizontal-line-small>hr{
@@ -184,13 +188,14 @@ div.img-box-row1>p, div.testlevel-container>p{
 .img-graphiclevel-container>img.img-graphiclevel{
   height: 350px;
   width: 350px;
+  margin: 0px 50px;
 }
 
 .box-testlevel{
   width: 400px;
 }
 div.testlevel-container{
-  padding: 0px 54px;
+  padding: 0px 20px 0px 70px;
 }
 div.testlevel-container>h2, div.testlevel-container>p {
   padding-bottom: 15px;

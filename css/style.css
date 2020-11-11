@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-div.navbar-container, div.sezione-slogan, div.content-best-course{
+div.navbar-container, div.sezione-slogan, div.content-best-course, div.box-img-container{
   width: 1200px;
   margin: 0 auto;
 }
@@ -35,6 +35,27 @@ button:hover, li:hover{
 
 h1, h2{
   font-weight: lighter;
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-l{
+  float: left;
+}
+.img-box-row1{
+  text-align: center;
+}
+h2.h2-color-green{
+  color: rgb(139, 184, 56);
+  font-size: 18px;
+}
+
+.horizontal-line{
+  padding: 15px 80px;
 }
 
 /* end common settings, fonts, utility classes */
@@ -62,7 +83,7 @@ header{
   text-transform: uppercase;
   font-size: 10px;
 }
-li.logo > a >div>img{
+li.logo > a >div>img.icon-head{
   width: 50px;
   height: 40px;
 }
@@ -99,7 +120,7 @@ li.logo > a >div>img{
   position: relative;
   height: 400px;
 }
-.sezione-slogan>img{
+.sezione-slogan>img.img-man{
   width: 900px;
   height: 350px;
   position: absolute;
@@ -117,8 +138,6 @@ li.logo > a >div>img{
 
 div.container-best-course{
   background-color: rgb(211, 211, 211);
-
-    /* height: 100px; /*cmd temp*/ */
 }
 
 div.content-best-course{
@@ -131,4 +150,22 @@ div.title-h2-container{
 div.subtitle-container{
   padding-bottom: 30px;
   color: rgb(128, 128, 128);
+}
+.box-img-container{
+  height: 300px;
+  padding-left: 150px;
+}
+
+.box-row1{
+  padding: 15px 45px;
+  width:300px;
+}
+div.img-box-row1> img.img-row1{
+  width: 150px;
+  height: 150px;
+}
+
+div.img-box-row1>p{
+  color: rgb(128, 128, 128);
+  font-size: 15px;
 }

@@ -10,7 +10,7 @@
   width: 100%;
 }
 
-div.navbar-container, div.sezione-slogan, div.content-best-course, div.box-img-container{
+div.navbar-container, div.sezione-slogan, div.content-best-course, div.box-img-container, div.row-graphiclevl{
   width: 1200px;
   margin: 0 auto;
 }
@@ -54,7 +54,7 @@ h2.h2-color-green{
   font-size: 18px;
 }
 
-.horizontal-line{
+.horizontal-line-small{
   padding: 15px 80px;
 }
 
@@ -152,7 +152,6 @@ div.subtitle-container{
   color: rgb(128, 128, 128);
 }
 .box-img-container{
-  height: 300px;
   padding-left: 150px;
 }
 
@@ -165,7 +164,23 @@ div.img-box-row1> img.img-row1{
   height: 150px;
 }
 
+.horizontal-line-small>hr{
+  border: none;
+  height: 1px;
+  background-color: rgb(128, 128, 128);
+}
 div.img-box-row1>p{
   color: rgb(128, 128, 128);
   font-size: 15px;
+}
+
+.row-img-container{
+  border-bottom: 1px solid rgb(128, 128 , 128); /*line row separation*/
+}
+
+.box-graphiclevel{
+  height: 500px;
+  padding-left: 150px;
+
+  border: 1px solid black;
 }

@@ -29,6 +29,10 @@ button{
 }
 
 
+button:hover, li:hover{
+  opacity: 0.5;
+}
+
 /* end common settings, fonts, utility classes */
 
 /* style */
@@ -94,4 +98,12 @@ li.logo > a >div>img{
   position: absolute;
   right: 0px;
   bottom: 0px;
+}
+
+.sezione-slogan> button.big-button{
+  border: none;
+  background-color: rgb(139, 184, 56);
+  margin-top: 30px;
+  margin-left: 35px;
+  height: 40px;
 }
